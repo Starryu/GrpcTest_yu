@@ -1,0 +1,31 @@
+server:
+  port: 8078
+  servlet:
+    context-path: /huangtu-timer
+
+# mysql
+spring:
+  # 环境 dev|test|prod
+  profiles:
+    active: test
+  datasource:
+    url: jdbc:mysql://localhost:3306/yu_demo
+    username: root
+    password: root1
+    driver-class-name: com.mysql.jdbc.Driver
+logging:
+  level: debug
+  level.com.huangtu: debug
+  path: logs/
+  file: timer.log
+
+# Grpc配置
+grpc:
+  client:
+    local-grpc-server:
+      #测试，大写转小写
+      host: 0.0.0.0 		  #grpc服务端的 url
+      port: 9090		      #grpc服务端的端口
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+

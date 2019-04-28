@@ -1,0 +1,130 @@
+2019-04-27 16:15:03.139  INFO 19264 --- [main] c.d.g.grpctest.GrpctestApplication       : Starting GrpctestApplication on DESKTOP-2E06BVQ with PID 19264 (started by admin in G:\IDEA Workspace\grpc_test)
+2019-04-27 16:15:03.141  INFO 19264 --- [main] c.d.g.grpctest.GrpctestApplication       : The following profiles are active: test
+2019-04-27 16:15:04.213  WARN 19264 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.d5.grpctest.grpctest]' package. Please check your configuration.
+2019-04-27 16:15:04.472  INFO 19264 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd75cf24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:15:04.489  INFO 19264 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration$$EnhancerBySpringCGLIB$$eef72778] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:15:04.545  INFO 19264 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcChannelsProperties' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcChannelsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:15:04.547  INFO 19264 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcLoadBalancerFactory' of type [io.grpc.util.RoundRobinLoadBalancerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:15:04.551  INFO 19264 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'globalClientInterceptorRegistry' of type [net.devh.springboot.autoconfigure.grpc.client.GlobalClientInterceptorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:15:04.555  INFO 19264 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'addressChannelFactory' of type [net.devh.springboot.autoconfigure.grpc.client.AddressChannelFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:15:05.057  INFO 19264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8078 (http)
+2019-04-27 16:15:05.125  INFO 19264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-27 16:15:05.126  INFO 19264 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-27 16:15:05.300  INFO 19264 --- [main] o.a.c.c.C.[.[.[/huangtu-timer]           : Initializing Spring embedded WebApplicationContext
+2019-04-27 16:15:05.300  INFO 19264 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2095 ms
+2019-04-27 16:15:05.766  INFO 19264 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-27 16:15:05.888  INFO 19264 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-04-27 16:15:05.924  WARN 19264 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-04-27 16:15:05.925  INFO 19264 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-27 16:15:05.927  INFO 19264 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-04-27 16:15:05.946  WARN 19264 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [huangtu-timer] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2019-04-27 16:15:05.954  INFO 19264 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-27 16:15:05.959 ERROR 19264 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-04-27 16:16:47.891  INFO 2208 --- [main] c.d.g.grpctest.GrpctestApplication       : Starting GrpctestApplication on DESKTOP-2E06BVQ with PID 2208 (started by admin in G:\IDEA Workspace\grpc_test)
+2019-04-27 16:16:47.893  INFO 2208 --- [main] c.d.g.grpctest.GrpctestApplication       : The following profiles are active: test
+2019-04-27 16:16:48.497  WARN 2208 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.d5.grpctest.grpctest]' package. Please check your configuration.
+2019-04-27 16:16:48.777  INFO 2208 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d92a0f80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:16:48.804  INFO 2208 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration$$EnhancerBySpringCGLIB$$eaab67d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:16:48.836  INFO 2208 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcChannelsProperties' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcChannelsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:16:48.839  INFO 2208 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcLoadBalancerFactory' of type [io.grpc.util.RoundRobinLoadBalancerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:16:48.841  INFO 2208 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'globalClientInterceptorRegistry' of type [net.devh.springboot.autoconfigure.grpc.client.GlobalClientInterceptorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:16:48.846  INFO 2208 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'addressChannelFactory' of type [net.devh.springboot.autoconfigure.grpc.client.AddressChannelFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:16:49.052  INFO 2208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8078 (http)
+2019-04-27 16:16:49.070  INFO 2208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-27 16:16:49.070  INFO 2208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-27 16:16:49.164  INFO 2208 --- [main] o.a.c.c.C.[.[.[/huangtu-timer]           : Initializing Spring embedded WebApplicationContext
+2019-04-27 16:16:49.164  INFO 2208 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1230 ms
+2019-04-27 16:16:49.334  INFO 2208 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-27 16:16:49.434  INFO 2208 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-04-27 16:16:49.468  WARN 2208 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-04-27 16:16:49.468  INFO 2208 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-27 16:16:49.470  INFO 2208 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-04-27 16:16:49.479  WARN 2208 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [huangtu-timer] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2019-04-27 16:16:49.486  INFO 2208 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-27 16:16:49.541 ERROR 2208 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-04-27 16:19:02.943  INFO 18400 --- [main] c.d.g.grpctest.GrpctestApplication       : Starting GrpctestApplication on DESKTOP-2E06BVQ with PID 18400 (started by admin in G:\IDEA Workspace\grpc_test)
+2019-04-27 16:19:02.945  INFO 18400 --- [main] c.d.g.grpctest.GrpctestApplication       : The following profiles are active: test
+2019-04-27 16:19:03.456  WARN 18400 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.d5.grpctest.grpctest]' package. Please check your configuration.
+2019-04-27 16:19:03.687  INFO 18400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d6e2ad5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:19:03.704  INFO 18400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration$$EnhancerBySpringCGLIB$$5eef8329] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:19:03.734  INFO 18400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcChannelsProperties' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcChannelsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:19:03.736  INFO 18400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcLoadBalancerFactory' of type [io.grpc.util.RoundRobinLoadBalancerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:19:03.740  INFO 18400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'globalClientInterceptorRegistry' of type [net.devh.springboot.autoconfigure.grpc.client.GlobalClientInterceptorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:19:03.744  INFO 18400 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'addressChannelFactory' of type [net.devh.springboot.autoconfigure.grpc.client.AddressChannelFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:19:03.984  INFO 18400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8078 (http)
+2019-04-27 16:19:04.002  INFO 18400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-27 16:19:04.002  INFO 18400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-27 16:19:04.101  INFO 18400 --- [main] o.a.c.c.C.[.[.[/huangtu-timer]           : Initializing Spring embedded WebApplicationContext
+2019-04-27 16:19:04.102  INFO 18400 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1112 ms
+2019-04-27 16:19:04.277  INFO 18400 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-27 16:19:04.378  INFO 18400 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-04-27 16:19:04.502  INFO 18400 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-04-27 16:19:05.101  INFO 18400 --- [main] n.d.s.a.grpc.server.GrpcServerLifecycle  : gRPC Server started, listening on address: 0.0.0.0, port: 9090
+2019-04-27 16:19:05.132  INFO 18400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8078 (http) with context path '/huangtu-timer'
+2019-04-27 16:19:05.135  INFO 18400 --- [main] c.d.g.grpctest.GrpctestApplication       : Started GrpctestApplication in 2.577 seconds (JVM running for 3.228)
+2019-04-27 16:24:27.503  INFO 9632 --- [main] c.d.g.grpctest.GrpctestApplication       : Starting GrpctestApplication on DESKTOP-2E06BVQ with PID 9632 (started by admin in G:\IDEA Workspace\grpc_test)
+2019-04-27 16:24:27.505  INFO 9632 --- [main] c.d.g.grpctest.GrpctestApplication       : The following profiles are active: test
+2019-04-27 16:24:28.064  WARN 9632 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.d5.grpctest.grpctest]' package. Please check your configuration.
+2019-04-27 16:24:28.278  INFO 9632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d35038] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:24:28.293  INFO 9632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration$$EnhancerBySpringCGLIB$$1454a88c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:24:28.321  INFO 9632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcChannelsProperties' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcChannelsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:24:28.323  INFO 9632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcLoadBalancerFactory' of type [io.grpc.util.RoundRobinLoadBalancerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:24:28.326  INFO 9632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'globalClientInterceptorRegistry' of type [net.devh.springboot.autoconfigure.grpc.client.GlobalClientInterceptorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:24:28.330  INFO 9632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'addressChannelFactory' of type [net.devh.springboot.autoconfigure.grpc.client.AddressChannelFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-27 16:24:28.530  INFO 9632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8078 (http)
+2019-04-27 16:24:28.556  INFO 9632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-27 16:24:28.556  INFO 9632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-27 16:24:28.660  INFO 9632 --- [main] o.a.c.c.C.[.[.[/huangtu-timer]           : Initializing Spring embedded WebApplicationContext
+2019-04-27 16:24:28.660  INFO 9632 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1125 ms
+2019-04-27 16:24:28.859  INFO 9632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-27 16:24:28.961  INFO 9632 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-04-27 16:24:29.022  INFO 9632 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-04-27 16:24:29.490  INFO 9632 --- [main] n.d.s.a.grpc.server.GrpcServerLifecycle  : gRPC Server started, listening on address: 0.0.0.0, port: 9090
+2019-04-27 16:24:29.508  INFO 9632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8078 (http) with context path '/huangtu-timer'
+2019-04-27 16:24:29.510  INFO 9632 --- [main] c.d.g.grpctest.GrpctestApplication       : Started GrpctestApplication in 2.356 seconds (JVM running for 2.949)
