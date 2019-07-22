@@ -128,3 +128,137 @@ Consider the following:
 2019-04-27 16:24:29.490  INFO 9632 --- [main] n.d.s.a.grpc.server.GrpcServerLifecycle  : gRPC Server started, listening on address: 0.0.0.0, port: 9090
 2019-04-27 16:24:29.508  INFO 9632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8078 (http) with context path '/huangtu-timer'
 2019-04-27 16:24:29.510  INFO 9632 --- [main] c.d.g.grpctest.GrpctestApplication       : Started GrpctestApplication in 2.356 seconds (JVM running for 2.949)
+2019-04-28 13:52:55.574  INFO 14104 --- [main] c.d.g.g.GrpctestApplication              : Starting GrpctestApplication on DESKTOP-2E06BVQ with PID 14104 (started by admin in G:\IDEA Workspace\grpc_test)
+2019-04-28 13:52:55.579  INFO 14104 --- [main] c.d.g.g.GrpctestApplication              : The following profiles are active: test
+2019-04-28 13:52:56.247  INFO 14104 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration$$EnhancerBySpringCGLIB$$f6e2f76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-28 13:52:56.280  INFO 14104 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcChannelsProperties' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcChannelsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-28 13:52:56.282  INFO 14104 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcLoadBalancerFactory' of type [io.grpc.util.RoundRobinLoadBalancerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-28 13:52:56.285  INFO 14104 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'globalClientInterceptorRegistry' of type [net.devh.springboot.autoconfigure.grpc.client.GlobalClientInterceptorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-28 13:52:56.289  INFO 14104 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'addressChannelFactory' of type [net.devh.springboot.autoconfigure.grpc.client.AddressChannelFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-28 13:52:56.497  INFO 14104 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8078 (http)
+2019-04-28 13:52:56.521  INFO 14104 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-04-28 13:52:56.521  INFO 14104 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-28 13:52:56.612  INFO 14104 --- [main] o.a.c.c.C.[.[.[/huangtu-timer]           : Initializing Spring embedded WebApplicationContext
+2019-04-28 13:52:56.613  INFO 14104 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 995 ms
+2019-04-28 13:52:56.756  INFO 14104 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-28 13:52:57.188  INFO 14104 --- [main] n.d.s.a.g.s.GrpcServerLifecycle          : gRPC Server started, listening on address: 0.0.0.0, port: 9090
+2019-04-28 13:52:57.205  INFO 14104 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8078 (http) with context path '/huangtu-timer'
+2019-04-28 13:52:57.208  INFO 14104 --- [main] c.d.g.g.GrpctestApplication              : Started GrpctestApplication in 2.121 seconds (JVM running for 2.879)
+2019-05-09 14:35:12.425  INFO 13952 --- [main] c.d.g.g.GrpctestApplication              : Starting GrpctestApplication on DESKTOP-2E06BVQ with PID 13952 (started by admin in G:\IDEA Workspace\grpc_test)
+2019-05-09 14:35:12.472  INFO 13952 --- [main] c.d.g.g.GrpctestApplication              : The following profiles are active: test
+2019-05-09 14:35:14.825  INFO 13952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration$$EnhancerBySpringCGLIB$$b5bfa180] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 14:35:14.959  INFO 13952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcChannelsProperties' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcChannelsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 14:35:14.979  INFO 13952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcLoadBalancerFactory' of type [io.grpc.util.RoundRobinLoadBalancerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 14:35:14.985  INFO 13952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'globalClientInterceptorRegistry' of type [net.devh.springboot.autoconfigure.grpc.client.GlobalClientInterceptorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 14:35:14.994  INFO 13952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'addressChannelFactory' of type [net.devh.springboot.autoconfigure.grpc.client.AddressChannelFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 14:35:15.801  INFO 13952 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8078 (http)
+2019-05-09 14:35:15.916  INFO 13952 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-05-09 14:35:15.916  INFO 13952 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-09 14:35:16.353  INFO 13952 --- [main] o.a.c.c.C.[.[.[/huangtu-timer]           : Initializing Spring embedded WebApplicationContext
+2019-05-09 14:35:16.354  INFO 13952 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3764 ms
+2019-05-09 14:35:16.968  INFO 13952 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-09 14:35:17.865  INFO 13952 --- [main] n.d.s.a.g.s.GrpcServerLifecycle          : gRPC Server started, listening on address: 0.0.0.0, port: 9090
+2019-05-09 14:35:17.897  INFO 13952 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8078 (http) with context path '/huangtu-timer'
+2019-05-09 14:35:17.903  INFO 13952 --- [main] c.d.g.g.GrpctestApplication              : Started GrpctestApplication in 9.037 seconds (JVM running for 14.666)
+2019-05-09 16:43:13.100  INFO 19160 --- [main] c.d.g.g.test                             : Starting test on DESKTOP-2E06BVQ with PID 19160 (started by admin in G:\IDEA Workspace\grpc_test)
+2019-05-09 16:43:13.119  INFO 19160 --- [main] c.d.g.g.test                             : The following profiles are active: test
+2019-05-09 16:43:14.353  INFO 19160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration$$EnhancerBySpringCGLIB$$3f2344e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 16:43:14.443  INFO 19160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcChannelsProperties' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcChannelsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 16:43:14.451  INFO 19160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcLoadBalancerFactory' of type [io.grpc.util.RoundRobinLoadBalancerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 16:43:14.464  INFO 19160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'globalClientInterceptorRegistry' of type [net.devh.springboot.autoconfigure.grpc.client.GlobalClientInterceptorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 16:43:14.481  INFO 19160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'addressChannelFactory' of type [net.devh.springboot.autoconfigure.grpc.client.AddressChannelFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 16:43:15.193  INFO 19160 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-09 16:43:16.120  INFO 19160 --- [main] n.d.s.a.g.s.GrpcServerLifecycle          : gRPC Server started, listening on address: 0.0.0.0, port: 9090
+2019-05-09 16:43:16.130  INFO 19160 --- [main] c.d.g.g.test                             : Started test in 3.736 seconds (JVM running for 6.394)
+2019-05-09 16:43:16.252 ERROR 19160 --- [main] o.s.t.c.TestContextManager               : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@21505815] to prepare test instance [com.d5.grpctest.grpctest.test@7e53339]
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.d5.grpctest.grpctest.test': Unsatisfied dependency expressed through field 'grpcClientService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'grpc.GrpcClientService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119) ~[spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:?]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'grpc.GrpcClientService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1654) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1213) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 28 more
+
+2019-05-09 16:43:16.305  INFO 19160 --- [Thread-2] n.d.s.a.g.s.GrpcServerLifecycle          : gRPC server stopped
+2019-05-09 16:43:16.307  INFO 19160 --- [Thread-2] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-09 16:47:03.350  INFO 16896 --- [main] c.d.g.g.test                             : Starting test on DESKTOP-2E06BVQ with PID 16896 (started by admin in G:\IDEA Workspace\grpc_test)
+2019-05-09 16:47:03.355  INFO 16896 --- [main] c.d.g.g.test                             : The following profiles are active: test
+2019-05-09 16:47:04.225  INFO 16896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcClientAutoConfiguration$$EnhancerBySpringCGLIB$$d196015f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 16:47:04.277  INFO 16896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcChannelsProperties' of type [net.devh.springboot.autoconfigure.grpc.client.GrpcChannelsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 16:47:04.282  INFO 16896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'grpcLoadBalancerFactory' of type [io.grpc.util.RoundRobinLoadBalancerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 16:47:04.293  INFO 16896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'globalClientInterceptorRegistry' of type [net.devh.springboot.autoconfigure.grpc.client.GlobalClientInterceptorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 16:47:04.301  INFO 16896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'addressChannelFactory' of type [net.devh.springboot.autoconfigure.grpc.client.AddressChannelFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 16:47:04.834  INFO 16896 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-09 16:47:05.660  INFO 16896 --- [main] n.d.s.a.g.s.GrpcServerLifecycle          : gRPC Server started, listening on address: 0.0.0.0, port: 9090
+2019-05-09 16:47:05.670  INFO 16896 --- [main] c.d.g.g.test                             : Started test in 2.827 seconds (JVM running for 4.141)
+2019-05-09 16:47:05.711 ERROR 16896 --- [main] o.s.t.c.TestContextManager               : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@75de6341] to prepare test instance [com.d5.grpctest.grpctest.test@74170687]
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.d5.grpctest.grpctest.test': Unsatisfied dependency expressed through field 'grpcClientService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'grpc.GrpcClientService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119) ~[spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:?]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'grpc.GrpcClientService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1654) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1213) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 28 more
+
+2019-05-09 16:47:05.748  INFO 16896 --- [Thread-2] n.d.s.a.g.s.GrpcServerLifecycle          : gRPC server stopped
+2019-05-09 16:47:05.749  INFO 16896 --- [Thread-2] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
